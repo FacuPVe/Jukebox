@@ -1,0 +1,22 @@
+{
+    "radioStations": [
+        {
+            "name": "Los 40 Classic",
+            "stream": "https://playerservices.streamtheworld.com/api/livestream-redirect/LOS40_CLASSIC.mp3",
+            "logo": "https://yt3.googleusercontent.com/7eosi7_29fW3vdxCnvw8G_2_4SwOQwnLnIVM-WLXjEYAAd1b2OhgQhiqL5Bs19Jrm7WnH-P9SXU=s900-c-k-c0x00ffffff-no-rj",
+            "isRadio": true
+        },
+        {
+            "name": "Classic FM",
+            "stream": "https://mytuner-radio.com/es/emisora/radio-panamericana-salsa-power-487503/",
+            "logo": "./images/classicfm.png",
+            "isRadio": true
+        },
+        {
+            "name": "BBC Radio 1",
+            "stream": "http://bbcmedia.ic.llnwd.net/stream/bbcmedia_radio1_mf_p",
+            "logo": "./images/bbc_radio1.png",
+            "isRadio": true
+        }
+    ]
+}

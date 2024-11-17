@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jukebox - Mejorado</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div id="player-container" class="player">
+        <img id="song-image" src="./images/default.png" alt="Song Art" />
+
+        <div class="song-info">
+            <div class="song-details">
+                <h3 id="song-title">Título</h3>
+                <p id="song-artist">Artista</p>
+            </div>
+        </div>
+        <div class="controls">
+            <img id="prev" src="images/prev.png" alt="Anterior" class="control-button" />
+            <img id="play-pause" src="images/play.png" alt="Reproducir/Pausar" class="control-button" />
+            <img id="next" src="images/next.png" alt="Siguiente" class="control-button" />
+        </div>
+        
+        <input type="range" id="seek-bar" min="0" max="100" value="0" class="slider">
+        <input type="range" id="volume-control" min="0" max="1" step="0.01" value="0.5" class="slider">
+    </div>
+    <div class="right-column">
+        <div class="top-right">
+            <div id="playlist-container" class="playlist-container">
+                <h3>Lista de Reproducción</h3>
+                <ul id="playlist"></ul>
+            </div>
+            <div id="radio-container" class="radio-container">
+                <h3>Emisoras de Radio</h3>
+                <ul id="radio-list"></ul>
+            </div>
+        </div>
+        <div id="equalizer-container" class="equalizer-container">
+            
+            <canvas id="equalizer" width="500" height="250"></canvas>
+        </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/howler/2.2.3/howler.min.js"></script>
+    <script src="equalizer.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,22 @@
+{
+    "songs": [
+        {
+            "title": "Feel Good",
+            "artist": "Syn Cole",
+            "src": "./audio/song1.mp3",
+            "image": "./images/song1.jpg"
+        },
+        {
+            "title": "Cyberblade",
+            "artist": "Extra Terra, Max Brhon",
+            "src": "./audio/song2.mp3",
+            "image": "./images/song2.jpg"
+        },
+        {
+            "title": "Symbolism",
+            "artist": "Electro-Light",
+            "src": "./audio/song3.mp3",
+            "image": "./images/song3.jpg"
+        }
+    ]
+}
