@@ -97,9 +97,8 @@ body {
 }
 
 #song-image {
-    width: 75%;
-    height: 75%;
-
+    width: 68%;
+    height: 68%;
     border-radius: 7px;
     margin: 2%;
     box-shadow: 0 0 40px rgb(235, 80, 214);

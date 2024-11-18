@@ -7,15 +7,33 @@
             "isRadio": true
         },
         {
-            "name": "Classic FM",
-            "stream": "https://mytuner-radio.com/es/emisora/radio-panamericana-salsa-power-487503/",
-            "logo": "./images/classicfm.png",
+            "name": "Radio Kishiwada",
+            "stream": "http://61.89.201.27:8000/radikishi.mp3",
+            "logo": "https://mytunein.com/images/logos/radiokishiwada797fm.jpg",
             "isRadio": true
         },
         {
-            "name": "BBC Radio 1",
-            "stream": "http://bbcmedia.ic.llnwd.net/stream/bbcmedia_radio1_mf_p",
-            "logo": "./images/bbc_radio1.png",
+            "name": "J-Pop Sakura 懐かしい",
+            "stream": "https://cast1.torontocast.com:2170/;",
+            "logo": "https://static.mytuner.mobi/media/tvos_radios/tjq25grgtzfg.jpeg",
+            "isRadio": true
+        },
+        {
+            "name": "La Popu",
+            "stream": "https://22823.live.streamtheworld.com/LAPOPU.mp3",
+            "logo": "https://static.mytuner.mobi/media/tvos_radios/776/radio-popular.46869649.png",
+            "isRadio": true
+        },
+        {
+            "name": "MRBI - KAZN 1300 AM",
+            "stream": "http://mobilewzrc.serverroom.us:6914/;",
+            "logo": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts116/v4/d8/65/79/d86579b8-00dd-b021-105b-0c2519418438/mza_4172189931509537832.jpeg/1200x1200bf-60.jpg",
+            "isRadio": true
+        },
+        {
+            "name": "Rádio Itatiaia",
+            "stream": "https://8903.brasilstream.com.br/stream",
+            "logo": "https://play-lh.googleusercontent.com/FR6WtvgOk4fe23-r-MAAA3LbRTlkRcEvTgYfTbBspKxG4qxGXY26NBFefM5Agrf6rkw",
             "isRadio": true
         }
     ]
